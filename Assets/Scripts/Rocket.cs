@@ -56,7 +56,6 @@ public class Rocket : MonoBehaviour
             return;
         }
 
-        print(collision.gameObject.tag);
         switch (collision.gameObject.tag)
         {
             case "Friendly":
