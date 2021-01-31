@@ -1857,6 +1857,61 @@ PrefabInstance:
       propertyPath: scoreManager
       value: 
       objectReference: {fileID: 286619304}
+    - target: {fileID: 5190064481295590078, guid: aec0ee5d6ea857b4ab6413d4ad6e472e,
+        type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5190064481295590078, guid: aec0ee5d6ea857b4ab6413d4ad6e472e,
+        type: 3}
+      propertyPath: InitialModule.startSpeed.scalar
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5190064481295590078, guid: aec0ee5d6ea857b4ab6413d4ad6e472e,
+        type: 3}
+      propertyPath: InitialModule.startLifetime.scalar
+      value: 0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 5190064481295590078, guid: aec0ee5d6ea857b4ab6413d4ad6e472e,
+        type: 3}
+      propertyPath: InitialModule.startSize.scalar
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5190064481295590078, guid: aec0ee5d6ea857b4ab6413d4ad6e472e,
+        type: 3}
+      propertyPath: InitialModule.startSizeY.scalar
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5190064481295590078, guid: aec0ee5d6ea857b4ab6413d4ad6e472e,
+        type: 3}
+      propertyPath: InitialModule.startSizeZ.scalar
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5190064481295590078, guid: aec0ee5d6ea857b4ab6413d4ad6e472e,
+        type: 3}
+      propertyPath: lengthInSec
+      value: 1.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 5190064481295590078, guid: aec0ee5d6ea857b4ab6413d4ad6e472e,
+        type: 3}
+      propertyPath: VelocityModule.radial.scalar
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5190064481295590078, guid: aec0ee5d6ea857b4ab6413d4ad6e472e,
+        type: 3}
+      propertyPath: looping
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5190064481295590078, guid: aec0ee5d6ea857b4ab6413d4ad6e472e,
+        type: 3}
+      propertyPath: prewarm
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5190064481295590078, guid: aec0ee5d6ea857b4ab6413d4ad6e472e,
+        type: 3}
+      propertyPath: InitialModule.size3D
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aec0ee5d6ea857b4ab6413d4ad6e472e, type: 3}
 --- !u!1001 &2365983655209525046

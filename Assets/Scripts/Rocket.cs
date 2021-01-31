@@ -7,6 +7,11 @@ public class Rocket : MonoBehaviour
     [SerializeField] float mainThrust = 100f;
     [SerializeField] float levelLoadDelay = 2f;
     [SerializeField] bool collisionsAreEnabled = true;
+
+    [SerializeField] ParticleSystem blowParticle;
+    [SerializeField] ParticleSystem winParticle;
+    [SerializeField] ParticleSystem bloodParticle;
+
     Rigidbody rigidBody;
     public ScoreManager scoreManager;
 
@@ -57,11 +62,13 @@ public class Rocket : MonoBehaviour
             case "Friendly":
                 break;
             case "Finish":
+                winParticle.Play();
                 state = State.Transcending;
                 ScoreManager.currentScore += 50;
                 Invoke("LoadNextScene", levelLoadDelay);
                 break;
             default:
+                bloodParticle.Play();
                 state = State.Dying;
                 scoreManager.AddScore(new Score("current player", ScoreManager.currentScore));
                 Invoke("LoadLeaderBoard", levelLoadDelay);
@@ -112,7 +119,12 @@ public class Rocket : MonoBehaviour
         
         if (Input.GetKey(KeyCode.Space))
         {
+            blowParticle.Play();
             rigidBody.AddRelativeForce(Vector3.up * thrustThisFrame);
+        }
+        else
+        {
+            blowParticle.Stop();
         }
     }
 
