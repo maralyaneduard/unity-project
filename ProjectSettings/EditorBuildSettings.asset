@@ -24,6 +24,9 @@ EditorBuildSettings:
     path: Assets/Scenes/ice1.unity
     guid: 68deb0969da72724ea5a75e9e50c911f
   - enabled: 1
+    path: Assets/Scenes/road1.unity
+    guid: 3502566901b06fc4a8ba7294cad60ca6
+  - enabled: 1
     path: Assets/Scenes/Score.unity
     guid: 35b9771007ccda0448af28501fdb520d
   m_configObjects: {}
