@@ -12,8 +12,9 @@ GameObject:
   - component: {fileID: 3399268}
   - component: {fileID: 2334792}
   - component: {fileID: 9558076}
-  - component: {fileID: 6560140}
-  - component: {fileID: 6574150}
+  - component: {fileID: 1029944146912455159}
+  - component: {fileID: 6481753402618470072}
+  - component: {fileID: 7645053292567386579}
   m_Layer: 0
   m_Name: Umbrella_2
   m_TagString: Untagged
@@ -28,13 +29,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 185408}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071067}
+  m_LocalRotation: {x: -0.7069834, y: 0, z: 0, w: 0.7072302}
   m_LocalPosition: {x: -0.1609, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.43501174, y: 0.4601885, z: 0.55991614}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -89.98, y: 0, z: 0}
 --- !u!33 &3399268
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -101,7 +102,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!65 &6560140
+--- !u!65 &1029944146912455159
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -112,9 +113,9 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.05185221, y: 0.04984123, z: 0.008490452}
-  m_Center: {x: -0.0014581978, y: -0.0009119435, z: 0.050489277}
---- !u!65 &6574150
+  m_Size: {x: 0.63681805, y: 3.8210804, z: 6.4941916}
+  m_Center: {x: -0.17757595, y: -1.4828774, z: 3.2098622}
+--- !u!65 &6481753402618470072
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -125,5 +126,18 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.0026746094, y: 0.0031641708, z: 0.067565195}
-  m_Center: {x: -0.00035049394, y: 0.000110512934, z: 0.03340949}
+  m_Size: {x: 2.3381972, y: 7.1681976, z: 0.6862903}
+  m_Center: {x: 1.6022261, y: 0.1906702, z: 5.546887}
+--- !u!65 &7645053292567386579
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 185408}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.3260585, y: 8.747211, z: 0.4387943}
+  m_Center: {x: 0.8485501, y: 0.9801913, z: 6.122862}
