@@ -30,6 +30,9 @@ EditorBuildSettings:
     path: Assets/Scenes/sea1.unity
     guid: 6840675256a4e374a94128c67e1e66a1
   - enabled: 1
+    path: Assets/Scenes/sky1.unity
+    guid: b917013fa529270459579807132416e4
+  - enabled: 1
     path: Assets/Scenes/Score.unity
     guid: 35b9771007ccda0448af28501fdb520d
   m_configObjects: {}
