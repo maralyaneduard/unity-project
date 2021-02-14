@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 0a0b050de72f822458714a23ff29e4c0
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Alphakind
+  fontNames:
+  - Alphakind
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: eac82cc2b4c134947a327fe799e86710, type: 3}
+  - {fileID: 12800000, guid: 9dca9f231ed796242b7fd3fca2ea2efe, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
