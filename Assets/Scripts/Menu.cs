@@ -18,4 +18,9 @@ public class Menu : MonoBehaviour
     {
         SceneManager.LoadScene("Score");
     }
+
+    public void test()
+    {
+
+    }
 }
